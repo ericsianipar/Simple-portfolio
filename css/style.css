@@ -1,5 +1,24 @@
+.jumbotron {
+    height: 100vh;
+}
+
 .jumbotron img {
     width: 200px;
     height: auto;
     border: 5px solid gray;
+}
+.jumbotron hr {
+    width: 40%;
+    border: 1px solid gray;
+    opacity: 0.2;
+}
+
+.about hr {
+    width: 30%;
+    border: 1px solid gray;
+    opacity: 0.7;
+}
+
+section {
+    height: 100vh;
 }
