@@ -7,6 +7,7 @@
     height: auto;
     border: 5px solid gray;
 }
+
 .jumbotron hr {
     width: 40%;
     border: 1px solid gray;
@@ -19,13 +20,13 @@
     opacity: 0.7;
 }
 
-section.about{
+section.about {
     height: 100vh;
 }
 
 .portfolio {
     background-color: #eee;
-    
+
 }
 
 .portfolio hr {
@@ -34,13 +35,18 @@ section.about{
     opacity: 0.7;
 }
 
-.portfolio .thumb {          
-    transition:  transform .5s; 
-        
+.portfolio .thumb {
+    transition: transform .5s;
 }
 
 .portfolio .thumb:hover {
     transform: scale(1.1);
     transition: transform .5s;
     object-fit: cover;
+}
+
+.contact hr {
+    width: 30%;
+    border: 1px solid gray;
+    opacity: 0.7;
 }
